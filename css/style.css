@@ -1,9 +1,9 @@
-header {
-    background-color: #2C3F51;
+body {
+    color: white;
 }
 
-[class*="col"] {
-    /* border: 1px solid; */
+header {
+    background-color: #2C3F51;
 }
 
 button {
@@ -30,12 +30,24 @@ ul li a {
     text-decoration: none;
 }
 
-p, .about {
-    padding: 40px;
+p, .portfolio, .about, .contact {
+    padding: 20px;
 }
 
-.portfolio, .contact {
-    padding: 20px;
+.portfolio p {
+    background-color: grey;
+}
+
+.portfolio h2, .contact {
+    color: black;
+}
+
+.footer-top {
+    background-color: #3A546D;
+}
+
+.footer-bottom {
+    background-color: #2C3F51;
 }
 
 
