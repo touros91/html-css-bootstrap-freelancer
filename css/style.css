@@ -28,6 +28,7 @@ button {
 ul li {
     display: inline-block;
     list-style: none;
+    padding-right: 25px;
 }
 
 ul li a {
