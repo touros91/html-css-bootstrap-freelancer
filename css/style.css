@@ -3,7 +3,7 @@ header {
 }
 
 [class*="col"] {
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 button {
@@ -12,8 +12,12 @@ button {
     background-color: green;
 }
 
-.hero {
+.hero, .about {
     background-color: #19BC9D;
+}
+
+.hero {
+    padding: 100px;
 }
 
 ul li {
@@ -25,3 +29,13 @@ ul li a {
     color: white;
     text-decoration: none;
 }
+
+p, .about {
+    padding: 40px;
+}
+
+.portfolio, .contact {
+    padding: 20px;
+}
+
+
