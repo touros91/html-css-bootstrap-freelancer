@@ -6,10 +6,15 @@ header {
     background-color: #2C3F51;
 }
 
+h2 {
+    padding: 20px;
+}
+
 button {
-    width: 60px;
     height: 30px;
     background-color: #19BC9D;
+    display: inline-block;
+    color: white;
 }
 
 .hero, .about {
@@ -30,12 +35,13 @@ ul li a {
     text-decoration: none;
 }
 
-p, .portfolio, .about, .contact {
+.portfolio, .about, .contact, .footer-top, .footer-bottom{
     padding: 20px;
 }
 
 .portfolio p {
     background-color: grey;
+    padding: 10px;
 }
 
 .portfolio h2, .contact {
