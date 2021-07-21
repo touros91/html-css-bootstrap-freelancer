@@ -154,12 +154,31 @@ ul li a {
     background-color: #3A546D;
 }
 
+.footer_top span {
+    margin-bottom: 20px;
+}
+
+.icone-footer {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+    border: 1px solid white;
+}
+
 .btn {
     border: 1px solid white;
     color: white;
 }
 
-.btn_bgverde {
+.btn:hover {
+    background-color: white;
+}
+
+.btn.btn_bgverde {
     background-color: #19BC9D;
 }
 
@@ -172,6 +191,15 @@ input, textarea {
     border-bottom: 1px solid #D9D9D9;
     width: 100%;
     color: black;
+}
+
+#link_verde {
+    color: #19BC9D;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 10px;
 }
 
 
