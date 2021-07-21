@@ -1,8 +1,10 @@
 body {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
+/* header  */
 header {
     height: 80px;
     width: 100%;
@@ -20,13 +22,7 @@ header .container, header .row {
 
 h2 {
     padding: 10px;
-}
-
-button {
-    padding: 10px;
-    background-color: #19BC9D;
-    display: inline-block;
-    color: white;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-toggler {
@@ -42,8 +38,15 @@ button {
 	padding: 120px 0 30px 0;
 }
 
-/* barra - stella - barra  */
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
 
+/* barra - stella - barra  */
 .barra_stella_barra {
     display: flex;
     justify-content: center;
@@ -78,6 +81,7 @@ ul li a {
     text-decoration: none;
 }
 
+/* sezione portfolio  */
 .portfolio, .about, .contact, .footer_top, .footer_bottom{
     padding: 20px;
 }
@@ -136,39 +140,13 @@ ul li a {
     transform: translate(-50%, -50%);
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
 .container_90 {
     width: 90%;
     max-width: 1000px;
     margin: auto;
 }
 
-.footer_top {
-    background-color: #3A546D;
-}
-
-.footer_top span {
-    margin-bottom: 20px;
-}
-
-.icone-footer {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 45px;
-    margin: auto;
-    border: 1px solid white;
-}
-
+/* bottoni  */
 .btn {
     border: 1px solid white;
     color: white;
@@ -198,9 +176,40 @@ input, textarea {
     text-decoration: none;
 }
 
+/* footer  */
+.footer_top {
+    background-color: #3A546D;
+}
+
+.footer_top span {
+    margin-bottom: 20px;
+}
+
+.icone-footer {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+    border: 1px solid white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover .icone-footer{
+    background-color: white;
+    color: black;
+}
+
 .footer-bottom {
     margin-top: 10px;
 }
+
 
 
 
