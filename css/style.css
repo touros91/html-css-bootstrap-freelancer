@@ -3,7 +3,17 @@ body {
 }
 
 header {
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+}
+
+header, .footer_bottom {
     background-color: #2C3F51;
+}
+
+header .container, header .row {
+    height: 100%;
 }
 
 h2 {
@@ -11,10 +21,15 @@ h2 {
 }
 
 button {
-    height: 30px;
+    padding: 10px;
     background-color: #19BC9D;
     display: inline-block;
     color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border: 1px solid white;
 }
 
 .hero, .about {
@@ -36,7 +51,7 @@ ul li a {
     text-decoration: none;
 }
 
-.portfolio, .about, .contact, .footer-top, .footer-bottom{
+.portfolio, .about, .contact, .footer_top, .footer_bottom{
     padding: 20px;
 }
 
@@ -49,12 +64,32 @@ ul li a {
     color: black;
 }
 
-.footer-top {
-    background-color: #3A546D;
+.portolio_img {
+    height: 200px;
+    border-radius: 10px;
+    background-color: grey;
 }
 
-.footer-bottom {
-    background-color: #2C3F51;
+.portfolio-img img {
+    width: 100%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+}
+
+.container_90 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer_top {
+    background-color: #3A546D;
 }
 
 
