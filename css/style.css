@@ -7,6 +7,7 @@ header {
     height: 80px;
     width: 100%;
     position: fixed; 
+    z-index: 2;
 }
 
 header, .footer_bottom {
@@ -109,6 +110,34 @@ ul li a {
     object-fit: contain;
 }
 
+/* overlay portfolio  */
+.portfolio_item {
+    position: relative;
+}
+
+.portfolio_item:hover .overlay {
+    display: block;
+}
+
+.overlay {
+    background-color: rgba(25, 188, 157, 0.8);
+    display: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.piu {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .circle {
     width: 200px;
     height: 200px;
@@ -126,5 +155,7 @@ ul li a {
 .footer_top {
     background-color: #3A546D;
 }
+
+
 
 
