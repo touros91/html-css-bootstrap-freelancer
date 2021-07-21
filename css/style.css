@@ -98,14 +98,15 @@ ul li a {
     color: black;
 }
 
-.portolio_img {
-    height: 200px;
+.portfolio_item {
     border-radius: 10px;
-    background-color: grey;
+	overflow: hidden;
+	margin: 10px 0;
 }
 
-.portfolio-img img {
+.portfolio_item img {
     width: 100%;
+    object-fit: contain;
 }
 
 .circle {
