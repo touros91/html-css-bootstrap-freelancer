@@ -19,7 +19,7 @@ header .container, header .row {
 }
 
 h2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 button {
@@ -39,8 +39,16 @@ button {
 }
 
 .hero {
-    /* margin-top: 80px; */
 	padding: 120px 0 30px 0;
+}
+
+/* barra - stella - barra  */
+
+.barra_stella_barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .barra {
@@ -50,26 +58,10 @@ button {
     background-color: white;
     display: inline-block;
 }
- .barra.barra_1 {
-    margin-left: 30px;
-    vertical-align: middle;
+
+.fa-star {
+    padding: 0 10px;
 }
-
-.barra.barra_2 {
-    margin-left: -30px;
-    vertical-align: middle;
-
-} 
-
-.stella i {
-    width: 10%;
-    vertical-align: middle;
-}
-
-.stella {
-    margin-bottom: 10px;
-}
-
 
 .circle img {
     width: 100%;
@@ -88,6 +80,13 @@ ul li a {
 
 .portfolio, .about, .contact, .footer_top, .footer_bottom{
     padding: 20px;
+}
+
+.portfolio .barra_stella_barra i {
+    color: black;
+}
+.barra_stella_black {
+    background: black;
 }
 
 .portfolio p {
@@ -137,7 +136,6 @@ ul li a {
     transform: translate(-50%, -50%);
 }
 
-
 .circle {
     width: 200px;
     height: 200px;
@@ -154,6 +152,15 @@ ul li a {
 
 .footer_top {
     background-color: #3A546D;
+}
+
+.btn {
+    border: 1px solid white;
+    color: white;
+}
+
+.about p {
+    margin: 10px 0 30px 0;
 }
 
 
