@@ -159,9 +159,22 @@ ul li a {
     color: white;
 }
 
+.btn_bgverde {
+    background-color: #19BC9D;
+}
+
 .about p {
     margin: 10px 0 30px 0;
 }
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    width: 100%;
+    color: black;
+}
+
+
 
 
 
